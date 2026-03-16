@@ -17,8 +17,8 @@ Proyek ini dibuat untuk mendemonstrasikan implementasi CRUD (Create, Read, Updat
 - ✅ Lihat semua data karyawan dalam tabel
 - ✅ Edit data karyawan yang ada
 - ✅ Hapus data karyawan
-- ✅ Pencarian data berdasarkan NIP
-- ✅ Validasi input dasar
+- ✅ Pencarian data berdasarkan NIP (lanjutan)
+- ✅ Validasi input dasar (lanjutan
 - ✅ Tema UI modern dengan FlatLaf
 - ✅ Klik row tabel untuk mengisi form otomatis
 - ✅ Validasi tanggal lahir (tahun 1900-2100, bulan 1-12, hari 1-31)
@@ -216,9 +216,6 @@ crud-swing-karyawan/
 - **FlatLaf**: UI theming
 - **JDBC**: Database connectivity
 
-## Lisensi
-
-Proyek ini dibuat untuk tujuan edukasi. Bebas digunakan dan dimodifikasi.
 
 ## Kontribusi
 
@@ -237,5 +234,4 @@ Jika ada pertanyaan atau masalah:
 
 ---
 
-**Catatan**: Pastikan MySQL server selalu berjalan sebelum menjalankan aplikasi. Aplikasi ini menggunakan koneksi database langsung tanpa connection pooling untuk kesederhanaan.</content>
-<parameter name="filePath">/home/alee/Destop/java/README.md
+**Catatan**: Pastikan MySQL server selalu berjalan sebelum menjalankan aplikasi. Aplikasi ini menggunakan koneksi database langsung tanpa connection pooling untuk kesederhanaan.
