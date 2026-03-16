@@ -1,4 +1,4 @@
-# Aplikasi CRUD Karyawan dengan Java Swing - Praktik OOP Java
+# Latihan CRUD Karyawan dengan Java Swing - Praktik OOP Java
 
 Aplikasi desktop sederhana untuk mengelola data karyawan menggunakan Java Swing dan MySQL. Dibuat sebagai tutorial belajar Java dengan GUI dan database.
 
@@ -117,7 +117,7 @@ Sudah termasuk dalam `pom.xml` sebagai dependensi Maven:
      ```
    - Buat database dan tabel:
      ```sql
-     CREATE DATABASE karyawan_db;
+     CREATE DATABASE karyawan_db; //LatihanNamaKamu
      USE karyawan_db;
 
      CREATE TABLE karyawan (
