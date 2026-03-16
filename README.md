@@ -44,8 +44,18 @@ Sebelum menjalankan aplikasi, pastikan sistem Anda memiliki:
   # macOS (dengan Homebrew)
   brew install openjdk@21
 
-  # Windows: Download dari https://adoptium.net/temurin/releases/
-  ```
+  # Windows: 
+  Download bin dari https://dlcdn.apache.org/maven/maven-3/3.9.14/binaries/apache-maven-3.9.14-bin.zip
+  jangan lupa di extract dulu zipnya
+  buka start menu dan cari "Edit the system environment variables"
+  buka tab "advance", tekan "Environment Variables"
+  di bagian bawah box "system variable" teken tulisan "new "
+  masukan "MAVEN_HOME" sebagai nama variabel, dan lokasi dari si maven sebagai valuenya
+  terus masih di "system variabel" teken yang ada tulisan "path" terus teken tombol "edit" di bawah
+  teken "new" terus tulis "%MAVEN_HOME%\bin"
+  kalau masih kurang paham bisa cek https://phoenixnap.com/kb/install-maven-windows
+
+
 - **Verifikasi**: `java -version` harus menampilkan Java 21.x.x
 
 ### 2. Apache Maven
